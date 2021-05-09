@@ -1,0 +1,6 @@
+node_modules
+variables.env
+.DS_Store
+public/uploads/mascotas/*
+public/uploads/peluditos/*
+public/uploads/perfiles/*
