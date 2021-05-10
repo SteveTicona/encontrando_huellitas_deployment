@@ -5,7 +5,7 @@ const shortid = require('shortid');
 const fs = require('fs');
 
 const configuracionMulter = {
-    limits :{ fileSize: 1000000 },
+    limits :{ fileSize: 10000000 },
     storage: fileStorage = multer.diskStorage({
         destination: (req, file, next) => {
             next(null, __dirname+'/../public/uploads/peluditos/');
